@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hoja de vida – Desarrolladora de Software</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="toolbar">
+    <div class="toggle" role="tablist" aria-label="Formato de la hoja de vida">
+      <button id="btn-ats" role="tab" aria-selected="true" data-template="ats">Formato ATS</button>
+      <button id="btn-visual" role="tab" aria-selected="false" data-template="visual">Formato visual</button>
+    </div>
+    <button id="btn-download" class="download">Descargar PDF</button>
+  </header>
+
+  <main class="stage">
+    <!-- El contenido se genera desde script.js -->
+    <article id="cv" class="page" aria-live="polite"></article>
+  </main>
+
+  <!-- html2pdf.js: genera el PDF directamente en el navegador -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

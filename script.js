@@ -2,10 +2,10 @@
 // 1) DATOS — edita solo esta sección con tu información real
 // ============================================================
 const cv = {
-  name: "Andrea Gómez Rivera",
+  name: "Yimmy Becerra Leon",
   initials: "AG",
-  title: "Desarrolladora de Software Full Stack",
-  contact: ["Bogotá, Colombia", "+57 300 000 0000", "andrea.gomez@email.com", "linkedin.com/in/tu-usuario", "github.com/tu-usuario"],
+  title: "Desarrollador de Software Full Stack",
+  contact: ["Manizales, Colombia", "+57 300 000 0000", "andrea.gomez@email.com", "linkedin.com/in/tu-usuario", "github.com/tu-usuario"],
   summary: "Desarrolladora de software con más de 5 años de experiencia diseñando, construyendo y desplegando aplicaciones web escalables. Experiencia en JavaScript/TypeScript, React, Node.js y Python, con enfoque en código limpio, pruebas automatizadas y trabajo en equipos ágiles.",
   skills: {
     "Lenguajes": "JavaScript, TypeScript, Python, SQL, HTML5, CSS3",
